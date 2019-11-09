@@ -1,6 +1,8 @@
+#Нахождение НОД и НОК чисел
+
 def nod(a,b):
     if a==1 or b==1:
-        return 1    
+        return 1
     oli=[]
     tli=[]
     for i in range(1,a+1):
@@ -10,7 +12,7 @@ def nod(a,b):
         if b%y==0:
             tli.append(y)
     return  max(list(set(oli) & set(tli)))
-    
+
 def nok(a,b):
     if a==1 or b==1:
         return 1

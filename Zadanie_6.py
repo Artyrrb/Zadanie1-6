@@ -1,3 +1,5 @@
+#Удаление циfр из введнноготекста
+
 def delnumb(text):
     textrez=('')
     for a in text:
