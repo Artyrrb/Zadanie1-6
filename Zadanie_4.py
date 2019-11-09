@@ -17,10 +17,11 @@ def nok(a,b):
     if a==1 or b==1:
         return 1
     return a*b/nod(a,b)
-
+print('Введите первое число:')
 a=int(input())
+print('Введите второе число:')
 b=int(input())
 dl = nod(a,b)
 kr = nok(a,b)
-print(dl)
-print(kr)
+print('Число НОД:',dl)
+print('Число НОК:',kr)
